@@ -21,6 +21,6 @@ public class MemberSaveControllerV4 implements ControllerV4 {
 
         // 모델에 member를 put해서 넘겨준다
         model.put("member",member);
-        return "save-result"; // 논리주소 save-result 넘겨준다
+        return "save"; // 논리주소 save-result 넘겨준다
     }
 }
